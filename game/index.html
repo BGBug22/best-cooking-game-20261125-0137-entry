@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Sate Senja — Tusuk, Bakar, Saji</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #160f0a; height: 100%; overflow: hidden; }
+  #wrap { display: flex; align-items: center; justify-content: center; height: 100vh; }
+  canvas {
+    display: block; width: min(100vw, 177.78vh); height: min(100vh, 56.25vw);
+    background: #1c130c; box-shadow: 0 0 60px rgba(0,0,0,.8); cursor: pointer;
+    image-rendering: auto;
+  }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="1280" height="720"></canvas></div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
